@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>My Online Store</h2>
+</header>
+<nav>
+            <ul>
+                <li><a href="landing.html">landing</a></li>
+                <li><a href="products.html">product</a></li>
+                <li><a href="details.html">details</a></li>
+                <li><a href="cart.html">cart</a></li>
+                <li><a href="checkout.html">checkout</a></li>
+                <li><a href="account.html">account</a></li>
+            </ul>
+        </nav>
+
+<main class="container">
+
+    <h1>Your Shopping Cart</h1>
+
+    
+    <ul class="cart-list">
+
+        <li class="cart-item">
+            <img src="https://via.placeholder.com/100" alt="Product 1">
+            <div class="cart-info">
+                <h3>Product 1</h3>
+                <p>Price: $45.00</p>
+                <label>
+                    Quantity:
+                    <input type="number" min="1" value="1">
+                </label>
+            </div>
+        </li>
+
+        <li class="cart-item">
+            <img src="https://via.placeholder.com/100" alt="Product 2">
+            <div class="cart-info">
+                <h3>Product 2</h3>
+                <p>Price: $75.00</p>
+                <label>
+                    Quantity:
+                    <input type="number" min="1" value="2">
+                </label>
+            </div>
+        </li>
+
+    </ul>
+
+    
+    <section class="cart-summary">
+        <h2>Subtotal: $195.00</h2>
+        <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+    </section>
+
+    
+    <section class="empty-cart">
+        <p>Your cart is currently empty.</p>
+        <a href="products.html">Start Shopping</a>
+    </section>
+
+</main>
+
+</body>
+</html>
